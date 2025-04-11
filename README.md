@@ -1,9 +1,14 @@
 # 🍔 Análise de Dados de Pedidos de Comida Online
 
-Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) sobre um conjunto de pedidos de comida online. Utilizamos Python, Pandas e Jupyter Notebooks para entender padrões de comportamento dos consumidores e extrair insights relevantes a partir dos dados.
+Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) sobre pedidos de comida online, com o intuito de entender padrões de comportamento dos consumidores, preferências e outros insights valiosos.
 
-## 📁 Estrutura Inicial
+Utilizamos Python, bibliotecas de análise de dados como Pandas, e visualizações interativas com ferramentas modernas. A estrutura do projeto foi pensada para escalabilidade, permitindo futuras implementações como dashboards, modelos preditivos e APIs de consulta.
 
+---
+
+## 📁 Estrutura do Projeto
+
+```text
 online-foods/
 │
 ├── backend/
@@ -28,28 +33,37 @@ online-foods/
 ├── docs/                    # Documentação do projeto
 ├── .gitignore               # Arquivo para ignorar arquivos desnecessários no Git
 └── README.md                # Documentação geral do projeto
-
-
-## ✅ O que já foi implementado
-
-- Função `load_csv()` para leitura robusta de arquivos CSV com manipulação de caminhos via `os.path`
-- Integração da função com Jupyter Notebooks
-- Testes com a base `onlinefoods.csv`
-
-## 🛠️ Tecnologias e Bibliotecas
-
-- Python 3.11+
-- Pandas
-- os
-- Jupyter Notebook
-- VSCode
-
-## 🔜 Em desenvolvimento
-
-- Análises estatísticas e visuais
-- Tratamento de dados faltantes e inconsistentes
-- Geração de dashboards interativos (futuramente)
+```
 
 ---
 
-> Este README será atualizado conforme o projeto evolui.
+## ✅ O que já foi implementado
+
+- [x] Função de leitura de CSV com suporte a diferentes caminhos relativos (`load_csv`)
+- [x] Organização modular do projeto com divisão por responsabilidade
+- [x] Notebook inicial de EDA (`eda.ipynb`)
+- [x] Estrutura de diretórios padronizada
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python 3.11+
+- Pandas
+- Jupyter Notebook
+- VSCode
+- (futuramente) Plotly, Streamlit, Dash
+
+---
+
+## 🚧 Próximos Passos
+
+- [ ] Análise estatística detalhada dos dados
+- [ ] Visualizações interativas
+- [ ] Desenvolvimento de dashboards web
+- [ ] Testes automatizados
+- [ ] Modelagem preditiva
+
+---
+
+> Este README será atualizado conforme o projeto evolui.  
